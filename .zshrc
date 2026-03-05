@@ -80,7 +80,6 @@ ZSH_TMUX_UNICODE=true
 
 source $ZSH/oh-my-zsh.sh
 
-# User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -97,23 +96,13 @@ source $ZSH/oh-my-zsh.sh
 # Compilation flags
 # export ARCHFLAGS="-arch $(uname -m)"
 
-# Set personal aliases, overriding those provided by Oh My Zsh libs,
-# plugins, and themes. Aliases can be placed here, though Oh My Zsh
-# users are encouraged to define aliases within a top-level file in
-# the $ZSH_CUSTOM folder, with .zsh extension. Examples:
-# - $ZSH_CUSTOM/aliases.zsh
-# - $ZSH_CUSTOM/macos.zsh
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
-
 # Load plugins
 # zsh-autosuggestions
 source $HOME/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 # zsh-autocompletion
 source $HOME/.zsh/zsh-autocompletion/zsh-autocomplete.plugin.zsh
 
-# Startup Programs. Runs the commands/programs on the start of
-#   a new zsh session
+# Startup Programs. Runs the commands/programs on the start of a new zsh session
+# fastfetch: prints the system information
 fastfetch
 
