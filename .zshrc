@@ -103,6 +103,13 @@ source $HOME/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 # source $HOME/.zsh/zsh-autocompletion/zsh-autocomplete.plugin.zsh
 # export ZSH_AUTOCCOMPLETE_MAX_LINES=10
 
+# zsh History with fzf
+source <(fzf --zsh)
+HISTFILE=$HOME/.zsh_history
+HISTSIZE=50000
+SAVEHIST=100000
+setopt appendhistory
+
 # Startup Programs. Runs the commands/programs on the start of a new zsh session
 # fastfetch: prints the system information
 fastfetch
