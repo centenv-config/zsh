@@ -110,7 +110,23 @@ HISTSIZE=50000
 SAVEHIST=100000
 setopt appendhistory
 
+# Generic aliases
+alias la="ls -lah"
+
+# Git aliases
+alias gs="git status"
+alias ga="git add"
+alias gc="git commit"
+alias gp="git push -u origin HEAD"
+alias gl="git pull"
+alias gf="git fetch"
+alias gd="git diff"
+
 # Startup Programs. Runs the commands/programs on the start of a new zsh session
 # fastfetch: prints the system information
 fastfetch
 
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
