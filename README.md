@@ -11,15 +11,19 @@ ln <path-to-dir>/.zshrc ~/.zshrc
 ```
 
 ## Setup + Dependencies
+
+### Oh-My-Zsh
 This *zsh* setup is dependent on *oh-my-zsh* which can be installed with:
 
 ```shell
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-The `fastfetch` command is used to display the system information at the start of every zsh session.
+The `fastfetch` command is used to display the system information at the start of every zsh session. See `fastfetch` [Installation Instructions](https://github.com/fastfetch-cli/fastfetch?tab=readme-ov-file#installation)
 
-See `fastfetch` [Installation Instructions](https://github.com/fastfetch-cli/fastfetch?tab=readme-ov-file#installation)
+### fzf
+Fuzzy finder *fzf* is used for quick file and command lookup. See `fzf` [Installation Instructions](https://github.com/junegunn/fzf)
+
 
 
 ## Plugins
