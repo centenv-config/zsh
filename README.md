@@ -10,6 +10,7 @@ git clone git@github.com:centenv-config/zshrcenten.git
 ln <path-to-dir>/.zshrc ~/.zshrc
 ```
 
+
 ## Setup + Dependencies
 
 ### Oh-My-Zsh
@@ -19,6 +20,7 @@ This *zsh* setup is dependent on *oh-my-zsh* which can be installed with:
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
+### fastfetch
 The `fastfetch` command is used to display the system information at the start of every zsh session. See `fastfetch` [Installation Instructions](https://github.com/fastfetch-cli/fastfetch?tab=readme-ov-file#installation)
 
 ### fzf
