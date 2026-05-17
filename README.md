@@ -1,14 +1,17 @@
 # CentenV's `zsh` Config
 
 
+
 ## Installation
 
 Clone this into a discrete directory and create a hardlink to it via the `ln` command.
 
 ```shell
-git clone git@github.com:centenv-config/zshrcenten.git
-ln <path-to-dir>/.zshrc ~/.zshrc
+git clone <repo-url>
+ln <path-to-dir>/.zshrc $HOME/.zshrc
+ln <path-to-dir>/.zshrc.ext $HOME/.zshrc.ext
 ```
+
 
 
 ## Setup + Dependencies
@@ -37,3 +40,4 @@ zsh-autocompletion: Fish-like autocomplete menu (currently disabled since it can
 ```shell
 git clone --depth 1 https://github.com/marlonrichert/zsh-autocomplete.git $HOME/.zsh/zsh-autocompletion
 ```
+
