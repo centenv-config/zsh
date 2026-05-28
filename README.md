@@ -9,7 +9,7 @@ Clone this into a discrete directory and create a hardlink to it via the `ln` co
 ```shell
 git clone <repo-url>
 ln <path-to-dir>/.zshrc $HOME/.zshrc
-ln <path-to-dir>/.zshrc.ext $HOME/.zshrc.ext
+ln <path-to-dir>/.zshenv $HOME/.zshenv
 ```
 
 
