@@ -109,6 +109,7 @@ HISTFILE=$HOME/.zsh_history
 HISTSIZE=50000
 SAVEHIST=100000
 setopt appendhistory
+setopt HIST_IGNORE_SPACE
 
 # Generic aliases
 alias la="ls -lah"
@@ -125,6 +126,4 @@ alias gd="git diff"
 # Startup Programs. Runs the commands/programs on the start of a new zsh session
 # fastfetch: prints the system information
 fastfetch
-
-source $HOME/.zshrc.ext
 
